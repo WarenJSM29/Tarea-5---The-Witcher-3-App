@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="@drawable/fondo_dark"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:gravity="center_horizontal"
+android:padding="16dp">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="The Witcher 3 en mi vida"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:textColor="#FF3C3C3C"
+    android:layout_marginBottom="12dp" />
+
+<WebView
+    android:id="@+id/video_testimonio"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#000000"/>
+</LinearLayout>

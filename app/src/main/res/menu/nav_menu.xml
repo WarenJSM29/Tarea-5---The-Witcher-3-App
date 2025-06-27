@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="" />
+    <item
+        android:id="@+id/nav_personajes"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="" />
+    <item
+        android:id="@+id/nav_momentos"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="" />
+    <item
+        android:id="@+id/nav_acerca"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="Acerca" />
+    <item
+        android:id="@+id/nav_en_mi_vida"
+        android:icon="@android:drawable/ic_menu_slideshow"
+    android:title="En mi vida" />
+</menu>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/fondo_dark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="16dp">
+
+        <!-- Título general -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acerca de The Witcher 3"
+            android:textSize="22sp"
+            android:textColor="#FF3C3C3C"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Tarjeta: Sinopsis -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="12dp"
+            card_view:cardBackgroundColor="#1E1E1E"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sinopsis"
+                    android:textColor="#FF3C3C3C"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="En un mundo devastado por la guerra, plagado de monstruos y conflictos políticos, Geralt de Rivia, un cazador mutante conocido como brujo, debe encontrar a su hija adoptiva Ciri, quien está siendo perseguida por la Cacería Salvaje: una fuerza espectral imparable. En esta historia épica de fantasía oscura, el jugador toma decisiones que afectan directamente el destino de reinos, aliados… y del propio Geralt."
+                    android:textColor="#DDDDDD"
+                    android:textSize="16sp"
+                    android:lineSpacingExtra="4dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Tarjeta: Datos técnicos -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="12dp"
+            card_view:cardBackgroundColor="#1E1E1E"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Datos técnicos"
+                    android:textColor="#FF3C3C3C"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="📅 Lanzamiento: 19 de mayo de 2015\n🧪 Motor gráfico: REDengine 3\n🎮 Plataformas: PC, PS4, PS5, Xbox One, Xbox Series X/S, Nintendo Switch\n📖 Historia principal: 32 capítulos (~50h)\n🧩 Con DLCs: +100h (Hearts of Stone y Blood and Wine)\n🏅 Edición Mejorada: Complete Edition (2022)"
+                    android:textColor="#CCCCCC"
+                    android:textSize="15sp"
+                    android:lineSpacingExtra="6dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Tarjeta: Desarrollador -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="12dp"
+            card_view:cardBackgroundColor="#1E1E1E">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sobre el creador"
+                    android:textColor="#FF3C3C3C"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CD Projekt Red es un estudio polaco conocido por su compromiso con la narrativa profunda y el respeto a los jugadores. The Witcher 3 ha ganado más de 250 premios a Juego del Año y es considerado uno de los mejores RPG de todos los tiempos."
+                    android:textColor="#DDDDDD"
+                    android:textSize="16sp"
+                    android:lineSpacingExtra="4dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>
